@@ -1,6 +1,5 @@
-source artifactory: 'https://buckle.jfrog.io/buckle/api/chef/chef-supermarket'
-source :chef_server
- 
+source 'https://supermarket.chef.io'
+
 metadata
  
 solver :ruby, :required
